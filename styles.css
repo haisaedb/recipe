@@ -2,5 +2,200 @@
     color: orange;
   }
   html{
-    background-color: aqua;
+    background-color: rgba(122, 191, 191, .5);
   }
+  body{
+    background-color: #F2F2F2;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+/*-- section one --*/
+
+#sec1 div{
+    display: flex;
+    flex-direction: row; 
+
+    
+    
+}
+
+#sec1 h1{
+    align-items: center;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: normal;
+    padding-top: 3rem;
+}
+
+#side-nav{
+    flex-direction: column;
+    
+    
+}
+#tacos img{
+    max-width: 100%;
+    height: auto;
+    width: 450px;  
+}
+#tacos p{
+    max-width: 100%;
+    padding: 20px;
+    margin-top:60px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-style: normal;  
+        
+   
+}
+#side-nav nav{
+    border: 1px solid #EB5428;
+}
+
+/*-- section two --*/
+
+#detail-bar{
+    background-color: black;
+    color: #7ABFBF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#detail-bar h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+
+}
+
+#detail-bar li{
+    display: inline-block;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    margin:0 auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+#detail-bar span{
+    display: block;
+    font-weight: 400;
+}
+
+#process{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+#process > #directions{
+    padding-left: 30px;
+}
+#process h2, #sec3 h2{
+text-align: center;
+font-family: "Bebas Neue", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 30px;
+}
+
+#process li{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.7;
+
+}
+
+/*-- section three --*/
+
+#sec3{
+    background-color: #7ABFBF;
+}
+#side-dishes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+
+#side-dishes img{
+    max-width: 100%;
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    top: -45px;
+    
+    
+}
+
+.rated-dishes h3{
+    position: relative;
+    bottom: -270px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;    
+}
+
+.rated-dishes p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+
+}
+
+/*#top-nav{
+    position: fixed; 
+    top: 0; 
+    max-width:100%;
+    background-color: #F2F2F2;
+    box-shadow: black;
+    text-align: center;
+    margin: 0 auto;
+}
+#top-nav h2{
+visibility: hidden;
+}
+
+#top-nav li{
+    display: inline-block;
+    list-style: none;
+
+}
+#top-nav nav a{
+    text-decoration: none;
+}
+
+#top-nav span{
+    display: block;
+}
+#home > span{
+    visibility: hidden;
+}
+
+#top-nav img{
+    max-width: 100%;
+    height: auto;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
