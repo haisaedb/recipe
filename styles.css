@@ -8,15 +8,13 @@
     background-color: #F2F2F2;
     max-width: 1280px;
     margin: 0 auto;
+    padding-top: 192px;
   }
 /*-- section one --*/
 
 #sec1 div{
     display: flex;
     flex-direction: row; 
-
-    
-    
 }
 
 #sec1 h1{
@@ -30,9 +28,7 @@
 }
 
 #side-nav{
-    flex-direction: column;
-    
-    
+    flex-direction: column;   
 }
 #tacos img{
     max-width: 100%;
@@ -47,12 +43,38 @@
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
-    font-style: normal;  
-        
+    font-style: normal;        
    
 }
 #side-nav nav{
-    border: 1px solid #EB5428;
+    border: 1px solid #EB5428; 
+   
+}
+
+#side-nav li{
+    list-style-type: none;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+
+#side-nav a {
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px; 
+}
+
+#side-nav a:hover{
+    text-decoration:underline;  
+}
+
+#side-nav a:visited{
+    color: black;
+}
+
+#side-nav span{
+    color:#EB5428;
 }
 
 /*-- section two --*/
@@ -156,22 +178,47 @@ font-size: 30px;
 
 }
 
-/*#top-nav{
-    position: fixed; 
-    top: 0; 
-    max-width:100%;
+/*-- Top Nav header --*/
+
+
+
+#top-nav{
+    width: 100%;
+    max-width: 1280px;
+    height: auto;
+    position: absolute; 
     background-color: #F2F2F2;
-    box-shadow: black;
     text-align: center;
-    margin: 0 auto;
+    margin-top: -50px;
+    top: -50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
-#top-nav h2{
+
+#search-bar{
+    position: relative;
+    text-align: center;
+    margin-top: -50px;
+    top: -1903px;
+}
+
+#top-nav #ham-menu {
 visibility: hidden;
+}
+
+#top-nav nav{
+        margin:10px;
+        margin-top: -4px;
+        
+        
+        
 }
 
 #top-nav li{
     display: inline-block;
     list-style: none;
+    padding-right: 0.9rem;
+    margin-right: 1rem;
 
 }
 #top-nav nav a{
@@ -188,7 +235,37 @@ visibility: hidden;
 #top-nav img{
     max-width: 100%;
     height: auto;
+    width: 95px;
+}
+#home svg{
+    max-width:100%;
+    max-height: 100%;
+    position: relative;
+    right: -11px;
+    margin-top: 1rem;
+    background-color: #EB5428;
     width: 100px;
+    height: 100px;
+}
+ul>#home{
+    position: relative;
+    right: -26px;
+    margin-right: 9rem;
+    margin-left: -3rem;
+  
+    width: 50px; 
+    height: 100px; 
+    background-color: #EB5428;
+    
+}
+#home span{
+    visibility: hidden;
+}
+ul>#avatar{
+    padding-left: 3rem;    
+}
+#avatar svg{
+    stroke:#EB5428;
 }
 
 
