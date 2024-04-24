@@ -359,10 +359,10 @@ footer span{
 }
 footer img{
   width: 100px; 
-  max-width:100%;
-    
-  
+  max-width:100%;      
 }
+#copyright{
+    margin-right: 150px;
 
 footer h2, footer h3{
   display:none;
