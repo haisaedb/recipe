@@ -295,38 +295,31 @@ footer{
   display: flex;
   flex-direction: row-reverse;
 }
-
 footer a{
   text-decoration: none;
 }
-
 #socials ul{
   display: flex;
   flex-direction: row;
   list-style: none;
   justify-content: center;
   align-items: center;
-  padding: 0;
-  
+  padding: 0; 
 }
-
 #socials svg{
   display: block;
   margin: 0 auto;
 }
 #socials span{
   margin-top: 3px;
-  margin-right: 45px;
-  
+  margin-right: 45px; 
 }
-
 footer span{
    color: #eb5428;
    font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 25px; 
-  
 }
 footer img{
   width: 200px; 
