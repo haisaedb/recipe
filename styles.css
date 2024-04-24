@@ -366,8 +366,7 @@ footer h2, footer h3{
 @media and screen(min-width: 768px){
   
   #sec1 h1{
-    text-align: left;
-    margin-right: 50px;
+    margin-right: 500px;
   }
   #side-nav{
     display: inline-block;
