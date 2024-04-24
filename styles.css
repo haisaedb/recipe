@@ -359,7 +359,9 @@ footer span{
 }
 footer img{
   width: 100% 
-  max-width: 100px;
+  max-width: 50px;
+    display: flex;
+    
   
 }
 
