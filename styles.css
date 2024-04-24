@@ -320,10 +320,33 @@ footer{
   backbground: white;
   padding: 20px;
   height: auto;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
-#socials li{
-  list-type-style: none;
+footer a{
+  text-decoration: none;
+}
+
+#socials ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  
+}
+
+#socials svg{
+  dsiplay: block;
+  margin: 0 auto;
+}
+#socials span{
+  display: block;
+  margin-top: 3px;
+  margin-right: 45px;
+  
 }
 
 footer span{
@@ -343,12 +366,3 @@ footer img{
 footer h2, footer h3{
   display:none;
 }
-
-
-
-
-
-
-
-
-
