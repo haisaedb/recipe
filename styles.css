@@ -133,6 +133,7 @@ font-size: 30px;
 
 #sec3{
     background-color: #7ABFBF;
+  padding-bottom: 25px;
 }
 #side-dishes{
     display: flex;
@@ -298,7 +299,7 @@ footer{
 footer a{
   text-decoration: none;
 }
-#socials ul{
+footer ul{
   display: flex;
   flex-direction: row;
   list-style: none;
