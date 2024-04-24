@@ -358,11 +358,17 @@ footer span{
   
 }
 footer img{
-  width: 100px; 
+  width: 200px; 
   max-width:100%;      
 }
 #copyright{
-    margin-right: 150px;
+    margin-right: 150px;}
+#copyright p, #copyright h3{
+      font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px; 
+}
 
 footer h2, footer h3{
   display:none;
