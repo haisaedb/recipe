@@ -355,6 +355,10 @@ footer h2, footer h3{
     display: flex;
     align-items: center;
 }
+  #detail-bar li{
+    padding: 0;
+    display: block;
+}
   
 
 
