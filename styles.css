@@ -352,6 +352,13 @@ footer h2, footer h3{
   #sec1 div{
     flex-direction: column;
   }
+  #sec1 h1{
+    font-weight: 400;
+    font-size: 35px;
+    font-style: normal;
+    padding-top: 5rem;
+    margin-right: 550px;
+  }
   #tacos img{ 
     width:768px;
     max-width:100%;
