@@ -344,7 +344,7 @@ footer h2, footer h3{
 
 /*Media Queries*/
 
-@media only screen and (min-width: 1280px){
+@media only screen and (max-width: 1280px){
   #search-bar{
     top: -1856px
   }
@@ -389,7 +389,7 @@ footer h2, footer h3{
     display: block;
 }
   #search-bar{
-    top: -3340px
+    top: -3340px;
     right: -300px;
   }
   #top-nav li{
