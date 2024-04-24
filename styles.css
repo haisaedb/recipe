@@ -179,23 +179,9 @@ font-size: 30px;
 }
 
 .ratings{ 
-display: none
+display: none;
 } 
 
-.star-container{ 
-  
-   
-}
-
-.star{
- display: inline-block;
-  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-  backgound-color: orange;
-  height: 20px;
-  width: 20px;
- 
-  
-}
 
 /*-- Top Nav header --*/
 
@@ -299,7 +285,6 @@ ul>#home{
     right: -26px;
     margin-right: 9rem;
     margin-left: -3rem;
-  
     width: 50px; 
     height: 100px; 
     background-color: #EB5428;
@@ -343,7 +328,6 @@ footer a{
   margin: 0 auto;
 }
 #socials span{
-  display: block;
   margin-top: 3px;
   margin-right: 45px;
   
@@ -363,7 +347,7 @@ footer img{
 }
 #copyright{
     position: relative;
-    margin-right: 300px;
+    margin-right: 700px;
 }
 
 #copyright p, #copyright h3{
@@ -390,6 +374,8 @@ footer h2, footer h3{
     
   }
   #details-bar{
+      display: grid;
+      grid-template-column: repeat(2, 1fr);
     
   }
   #side-dishes{
