@@ -349,6 +349,9 @@ footer h2, footer h3{
     width:768px;
     max-width: 100%;
   }
+  #sec1 div{
+    flex-direction: column;
+  }
   #detail-bar{
     background-color: #F2F2F2;;
     color: #060606;
