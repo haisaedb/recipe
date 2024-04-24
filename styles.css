@@ -366,6 +366,12 @@ footer h2, footer h3{
   #side-nav li{
     display: inline;
   }
+
+  #side-dishes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 75px;
+}
   #detail-bar{
     background-color: #F2F2F2;;
     color: #060606;
