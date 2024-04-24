@@ -383,6 +383,16 @@ footer h2, footer h3{
     padding: 0;
     display: block;
 }
+  #search-bar{
+    top: -3340px
+    right: -300px;
+  }
+  #top-nav li{
+    width: 65px;
+  }
+footer li{
+  margin-right: 23px;
+}
   
 
 
