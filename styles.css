@@ -344,6 +344,11 @@ footer h2, footer h3{
 
 /*Media Queries*/
 
+@media only screen and (max-width: 768px){
+  #search-bar{
+    top: -1856px
+  }
+}
 
 @media only screen and (max-width: 768px){
   body{ 
