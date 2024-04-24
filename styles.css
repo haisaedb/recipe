@@ -1,6 +1,3 @@
-.checked {
-    color: orange;
-  }
   html{
     background-color: rgba(122, 191, 191, .5);
   }
@@ -43,20 +40,16 @@
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
-    font-style: normal;        
-   
+    font-style: normal;      
 }
 #side-nav nav{
     border: 1px solid #EB5428; 
-   
 }
-
 #side-nav li{
     list-style-type: none;
     padding-right: 2rem;
     padding-top: 1rem;
 }
-
 #side-nav a {
     text-decoration: none;
     font-family: "Bebas Neue", sans-serif;
@@ -64,7 +57,6 @@
     font-style: normal;
     font-size: 25px; 
 }
-
 #side-nav a:hover{
     text-decoration:underline;  
 }
@@ -240,8 +232,8 @@ visibility: hidden;
 }
 
 #top-nav nav{
-        margin:10px;
-        margin-top: -4px;    
+    margin:10px;
+    margin-top: -4px;    
 }
 
 #top-nav li{
@@ -363,7 +355,7 @@ footer h2, footer h3{
 
 /*--mediaQuery*/
 
-@media and screen(min-width: 768px){
+@media and screen(max-width: 768px){
   
   #sec1 h1{
     margin-right: 500px;
@@ -392,6 +384,6 @@ footer h2, footer h3{
   
 }
 
-@media and screen (min-width: 414px){
+@media and screen (max-width: 414px){
   
 }
