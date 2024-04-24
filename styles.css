@@ -193,13 +193,13 @@ display: none;
 }
 
 #search-bar{
-     display: flex;
-    position: relative;
-    align-item: center;
+  display: flex;
+  position: relative;
+  align-items: center;
   justify-content:center;
-    margin-top: -50px;
-    top: -1903px;
-    width:100%;
+  margin-top: -50px;
+  top: -1903px;
+  width:100%;
   height: auto;
 }
 
@@ -211,9 +211,9 @@ form{
 }
 
 form input{
-  fle: 1;
+  flex: 1;
   border: none;
-  ouline: none;
+  outline: none;
 }
 
 form button{
@@ -294,7 +294,7 @@ ul>#avatar{
 /*footer*/
 
 footer{
-  backbground: white;
+  background: white;
   padding: 20px;
   height: auto;
   display: flex;
@@ -316,7 +316,7 @@ footer a{
 }
 
 #socials svg{
-  dsiplay: block;
+  display: block;
   margin: 0 auto;
 }
 #socials span{
@@ -353,37 +353,4 @@ footer h2, footer h3{
   display:none;
 }
 
-/*--mediaQuery*/
 
-@media and screen(max-width: 768px){
-  
-  #sec1 h1{
-    margin-right: 500px;
-  }
-#tacos img{
-    max-width: 100%;
-    height: auto;
-    width: 250px;  
-}
-  #side-nav{
-    display: inline-block;
-    
-  }
-  #details-bar{
-      display: grid;
-      grid-template-column: repeat(2, 1fr);
-    
-  }
-  #side-dishes{
-    
-  }
-#search-bar{
-    top: -2000px;
- 
-}
-  
-}
-
-@media and screen (max-width: 414px){
-  
-}
