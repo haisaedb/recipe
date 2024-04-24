@@ -362,9 +362,12 @@ footer img{
   max-width:100%;      
 }
 #copyright{
-    margin-right: 150px;}
+    position: relative;
+    margin-right: 300px;
+}
+
 #copyright p, #copyright h3{
-      font-family: "Bebas Neue", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 25px; 
@@ -372,4 +375,29 @@ footer img{
 
 footer h2, footer h3{
   display:none;
+}
+
+/*--mediaQuery*/
+
+@media and screen(min-width: 768px){
+  
+  #sec1 h1{
+    text-align: left;
+    margin-right: 50px;
+  }
+  #side-nav{
+    display: inline-block;
+    
+  }
+  #details-bar{
+    
+  }
+  #side-dishes{
+    
+  }
+  
+}
+
+@media and screen (min-width: 414px){
+  
 }
