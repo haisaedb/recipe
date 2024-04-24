@@ -368,6 +368,11 @@ footer h2, footer h3{
   #sec1 h1{
     margin-right: 500px;
   }
+#tacos img{
+    max-width: 100%;
+    height: auto;
+    width: 250px;  
+}
   #side-nav{
     display: inline-block;
     
@@ -380,6 +385,10 @@ footer h2, footer h3{
   #side-dishes{
     
   }
+#search-bar{
+    top: -2000px;
+ 
+}
   
 }
 
