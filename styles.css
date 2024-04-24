@@ -348,4 +348,15 @@ footer h2, footer h3{
   display:none;
 }
 
+/*Media Queries*/
+
+
+@media only screen and (max-width: 768px){
+  #detail-bar{
+    background-color: #F2F2F2;;
+    color: #060606;
+    display: flex;
+    align-items: center;
+}
+
 
